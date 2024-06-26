@@ -15,7 +15,7 @@
 
 <div style="text-align: center;">
 
-![메인페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/a36c99f5-ac10-4b4a-b21d-d72f7897cbd7)
+![리드미최상단](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/6374c883-fad2-40ad-bec2-01fcf71cac01)
 
 </div>
 
@@ -45,11 +45,14 @@
 - <b>서비스 명칭</b> :
 
   - **꿀단집(HoneyTouse)**
-    - 꿀단지*(HoneyPot)* + 집*(House)*의 합성어
-    - 꿀과 집을 연상시키면서도 따뜻하고 아늑한 느낌을 줌.
-    - 꿀같은 휴식과 안락함을 즐길 수 있는 다양한 제품들을 제공하는 서비스의 이미지를 연상하도록 함.
+    - 꿀단지<u>(HoneyPot)</u> + 집<u>(House)</u>의 합성어
+    - 꿀같은 휴식과 안락함을 즐길 수 있는 다양한 제품들을 제공하는 서비스의 이미지를 연상하도록 하며, 따뜻하고 아늑한 느낌을 줌.
 
-- <b>페르소나</b> : - <b>권 나리 / 20대 여성 / 서울 거주 자취생 (1인가구)</b> - 저렴하면서도 세련되게 자취방을 꾸밀 수 있는 아기자기한 감성 가구 및 소품을 원함. - 자취방에서 사용할 수 있는 심플한 생활용품 구매를 희망함. - 실용성이 뛰어나면서도 본인의 감성을 채워줄 물건을 찾고 있음.
+- <b>페르소나</b> : 
+    - <b>권 나리 / 20대 여성 / 서울 거주 자취생 (1인가구)</b> 
+        - 저렴하면서도 세련되게 자취방을 꾸밀 수 있는 아기자기한 감성 가구 및 소품을 원함. 
+        - 자취방에서 사용할 수 있는 심플한 생활용품 구매를 희망함. 
+        - 실용성이 뛰어나면서도 본인의 감성을 채워줄 물건을 찾고 있음.
 <details>
 <summary><i>페르소나 이미지 파일</i></summary>
 <div markdown="1">
@@ -146,17 +149,15 @@
 <summary><b>메인 페이지 - 접속</b> (시연 GIF)</summary>
 <div markdown="1">
 
-</div>
-</details>
-<details>
-<summary><b>메인 페이지 - 카테고리 조회</b> (시연 GIF)</summary>
-<div markdown="1">
+![메인페이지-접속](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/448bfe7f-9dab-4573-9fb2-be274684379a)
 
 </div>
 </details>
 <details>
-<summary><b>메인 페이지 - 최근 검색 내역</b> (시연 GIF)</summary>
+<summary><b>메인 페이지 - 카테고리 선택 후 상품 둘러보기</b> (시연 GIF)</summary>
 <div markdown="1">
+
+![메인페이지-카테고리](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/4bf52dc4-fd6c-45e7-bc94-ff9e5e9d4ddb)
 
 </div>
 </details>
@@ -172,11 +173,15 @@
 <summary><b>상세 페이지 - 접속</b> (시연 GIF)</summary>
 <div markdown="1">
 
+![상세페이지-접속](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/16a849e7-59da-408d-912e-8fe629047ec3)
+
 </div>
 </details>
 <details>
 <summary><b>상세 페이지 - 장바구니 담기</b> (시연 GIF)</summary>
 <div markdown="1">
+
+![상세페이지-장바구니담기](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/76691d7a-2c72-49bd-a879-a54c8f8bda3b)
 
 </div>
 </details>
@@ -188,8 +193,18 @@
 - 배송 상태별 주문 수량을 확인 가능
 - 최근 주문 정보 확인 가능
 <details>
+<summary><b>마이 페이지 - 주문내역 조회</b> (시연 GIF)</summary>
+<div markdown="1">
+
+![마이페이지-주문내역조회](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/56fb027e-9a76-4dac-bec8-bdc1d07f6a69)
+
+</div>
+</details>
+<details>
 <summary><b>마이 페이지 - 회원 정보 수정</b> (시연 GIF)</summary>
 <div markdown="1">
+
+![마이페이지-정보변경](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/b82c7bc7-ad1d-42eb-9daf-67450bd66922)
 
 </div>
 </details>
@@ -205,23 +220,39 @@
 <summary><b>관리자 페이지 - 비회원 또는 일반 회원 접속</b> (시연 GIF)</summary>
 <div markdown="1">
 
+![관리자페이지-비회원(배)](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/920f276c-a6f4-43eb-9721-974382ba3138)
+
 </div>
 </details>
 <details>
 <summary><b>관리자 페이지 - 회원 정보 조회</b> (시연 GIF)</summary>
 <div markdown="1">
 
-</div>
-</details>
-<details>
-<summary><b>관리자 페이지 - 상품 배송 상태별 조회</b> (시연 GIF)</summary>
-<div markdown="1">
+![관리자페이지-회원정보조회](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/0666bf95-7d90-4d97-b5fe-1ae0e85b8a27)
 
 </div>
 </details>
 <details>
-<summary><b>관리자 페이지 - 상품 및 카테고리 관리</b> (시연 GIF)</summary>
+<summary><b>관리자 페이지 - 배송상태별 주문조회</b> (시연 GIF)</summary>
 <div markdown="1">
+
+![관리자페이지-상품배송상태조회](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/baa538cd-b4ba-42c9-86e9-8bf104592bb0)
+
+</div>
+</details>
+<details>
+<summary><b>관리자 페이지 - 상품 배송상태 변경</b> (시연 GIF)</summary>
+<div markdown="1">
+
+![관리자페이지-상품배송상태변경](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/f37b0820-bdd4-41fa-a680-66526ff78768)
+
+</div>
+</details>
+<details>
+<summary><b>관리자 페이지 - 카테고리 관리</b> (시연 GIF)</summary>
+<div markdown="1">
+
+![관리자페이지-카테고리관리](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/967fddae-92f6-440d-94e4-84b4f4a8f07d)
 
 </div>
 </details>
@@ -239,17 +270,15 @@
 <summary><b>주문/결제 - 비회원</b> (시연 GIF)</summary>
 <div markdown="1">
 
+![주문-비회원](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/cc963efe-b1a9-4a94-908b-7a3cf3d042d0)
+
 </div>
 </details>
 <details>
 <summary><b>주문/결제 - 회원</b> (시연 GIF)</summary>
 <div markdown="1">
 
-</div>
-</details>
-<details>
-<summary><b>주문/결제 - 장바구니 구매</b> (시연 GIF)</summary>
-<div markdown="1">
+![주문-회원](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/f97eb00f-f2b1-4792-9100-5b2742562bb6)
 
 </div>
 </details>
@@ -262,14 +291,21 @@
 - 입력한 이메일로 인증번호 발송 및 확인 가능 (구글, 네이버 등) **_(Node mailer)_**
 - 인증번호는 5분 이내에만 유효하도록 하여 보안 강화
 <details>
-<summary><b>회원가입 - 폼 입력부터 메일 인증, 제출까지</b> (시연 GIF)</summary>
+<summary><b>회원가입 - 폼 입력부터 메일 인증, 로그인까지</b> (시연 GIF)</summary>
 <div markdown="1">
+
+![회원가입-정상](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/b75f0f91-f138-4a03-b569-2344ff4a5fc8)
 
 </div>
 </details>
 <details>
-<summary><b>회원가입 - 이메일 미인증 5분 경과</b> (시연 GIF)</summary>
+<summary><b>회원가입 - 이메일 미인증 5분 경과시 인증번호 무효</b> (시연 GIF)</summary>
 <div markdown="1">
+
+![회원가입-5분이상경과1](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/056e6798-619d-4799-bb7f-9d91aa37f835)
+
+5분 이상 경과시 인증번호가 무효가 됨.
+![회원가입-5분이상경과2](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/ab05af26-8397-4d12-a2a7-a496c217b268)
 
 </div>
 </details>
@@ -282,11 +318,15 @@
 <summary><b>로그인</b> (시연 GIF)</summary>
 <div markdown="1">
 
+![로그인](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/2aa5b8a0-4d14-432f-9630-8da9817ebd42)
+
 </div>
 </details>
 <details>
 <summary><b>로그아웃</b> (시연 GIF)</summary>
 <div markdown="1">
+
+![로그아웃](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/1e03cb9b-a8ed-462d-b502-db2c7510d575)
 
 </div>
 </details>
