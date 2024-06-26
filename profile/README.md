@@ -77,7 +77,6 @@
   - <b>2차</b> : 리팩토링 (24.03.08 ~ ) [자율] <br> 
     - (주)엘리스가 보유하고 있는 프라이빗 GitLab 저장소에서 1차 개발을 마침.<br> 이후 개별적으로 Github Organization 생성하여 2차 리팩토링을 자율적으로 진행함.
 <br>
-<br>
 
 - ### 진행 인원 및 역할 <br>
 
@@ -91,7 +90,6 @@
     | 이승철 | • 메인페이지<br>• 로그인 및 회원가입 페이지 | - | • PPT 제작<br>• 2차 배포(Nginx) |
     | 이보미 | • 주문 및 결제 페이지<br>• 마이페이지 주문내역 부분 | - | • 시연영상 제작 |
     | 최정민 | • 관리자 페이지 | • Category API (카테고리 CRUD)<br>• Product API (상품 CRUD) | • PPT 제작 |
-    <br>
 
 - ### 관련 링크
 
@@ -100,7 +98,6 @@
   - <b>포지션별 Github</b> 
     - 프론트엔드 : https://github.com/HoneyTouse/HoneyTouse_FE
     - 백엔드 : https://github.com/HoneyTouse/HoneyTouse_BE
-    <br>
     <br>
 
 - ### 기술 스택
