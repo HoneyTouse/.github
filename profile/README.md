@@ -7,17 +7,22 @@
 
 > <b>http://honeytouseclient.s3-website.ap-northeast-2.amazonaws.com/</b>
 
-<div style="text-align: center;">
+<center>
 
 ![logo_with_animation](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/5f8233de-177e-46a3-8b78-861024c6d34b)
 
-</div>
-
-<div style="text-align: center;">
-
 ![리드미최상단](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/6374c883-fad2-40ad-bec2-01fcf71cac01)
 
+</center>
+
+<details>
+<summary><u>유튜브 시연 영상</u></summary>
+<div markdown="1">
+
+[![Video Label](http://img.youtube.com/vi/5DiQ-FD5xv8/0.jpg)](https://youtu.be/5DiQ-FD5xv8)
+
 </div>
+</details>
 
 ---
 
