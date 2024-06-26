@@ -16,7 +16,7 @@
 </center>
 
 <details>
-<summary><u>유튜브 시연 영상</u></summary>
+<summary><b>유튜브 시연 영상</b></summary>
 <div markdown="1">
 
 [![Video Label](http://img.youtube.com/vi/5DiQ-FD5xv8/0.jpg)](https://youtu.be/5DiQ-FD5xv8)
@@ -59,7 +59,7 @@
         - 자취방에서 사용할 수 있는 심플한 생활용품 구매를 희망함. 
         - 실용성이 뛰어나면서도 본인의 감성을 채워줄 물건을 찾고 있음.
 <details>
-<summary><i>페르소나 이미지 파일</i></summary>
+<summary><b>페르소나 이미지 파일</b></summary>
 <div markdown="1">
 
 ![image](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/732522c3-ea12-4d43-9b32-4dfc4b765ec6)
