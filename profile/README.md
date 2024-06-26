@@ -72,7 +72,7 @@
 - ### 진행 인원 및 역할 <br>
 
   - 7명 (프론트엔드 4명, 백엔드 3명)<br>
-    | 이름 | FrontEnd | BackEnd | 배포/발표/영상 |
+    | 팀원 이름 | FrontEnd | BackEnd | 배포/발표/영상 |
     |----------------------------|---------------------------|---------------------------|--------------------------|
     | 김지윤 | • 상품 상세 페이지<br>• 장바구니 페이지 | - | • 시연 영상 제작 |
     | 문채영 | - | • Admin API(관리자 기능)<br>• Order API (회원/비회원 주문 CRUD) | • PPT 제작 |
@@ -87,7 +87,9 @@
 
   - <b>노션 페이지</b> : https://holy-mailbox-d99.notion.site/HONEY_TOUSE-3-24dfdd1b9bb64d00bac395e1a56c0093?pvs=4<br>
   - <b>피그마</b> : https://www.figma.com/design/3Knu77CbkAbGge2jrBXQds/honey-touse?node-id=0-1&t=w161YF54HWFuTJ1F-1
-  - <b>포지션별 Github</b> - 프론트엔드 : https://github.com/HoneyTouse/HoneyTouse_FE - 백엔드 : https://github.com/HoneyTouse/HoneyTouse_BE
+  - <b>포지션별 Github</b> 
+    - 프론트엔드 : https://github.com/HoneyTouse/HoneyTouse_FE
+    - 백엔드 : https://github.com/HoneyTouse/HoneyTouse_BE
     <br>
     <br>
 
@@ -272,6 +274,22 @@
 </div>
 </details>
 <br>
+
+### ✅ 로그인
+
+- JSON Web Token 라이브러리를 이용하여 토큰 기반의 인증을 수행
+<details>
+<summary><b>로그인</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>로그아웃</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
 
 ---
 
