@@ -76,8 +76,6 @@
   - <b>1차</b> : 기획 및 개발 (24.02.19 ~ 24.03.01) [2주]<br>
   - <b>2차</b> : 리팩토링 (24.03.08 ~ ) [자율] <br> 
     - (주)엘리스가 보유하고 있는 프라이빗 GitLab 저장소에서 1차 개발을 마침.<br> 이후 개별적으로 Github Organization 생성하여 2차 리팩토링을 자율적으로 진행함.
-<br>
-
 - ### 진행 인원 및 역할 <br>
 
   - 7명 (프론트엔드 4명, 백엔드 3명)<br>
@@ -98,8 +96,7 @@
   - <b>포지션별 Github</b> 
     - 프론트엔드 : https://github.com/HoneyTouse/HoneyTouse_FE
     - 백엔드 : https://github.com/HoneyTouse/HoneyTouse_BE
-    <br>
-
+    
 - ### 기술 스택
   - <b>프론트엔드</b> : HTML, CSS, JavaScript, Vite
   - <b>백엔드</b> : Node.js, Express, MongoDB, JavaScript
