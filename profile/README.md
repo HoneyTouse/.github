@@ -1,10 +1,23 @@
-# 🐝 꿀단집 (HoneyTouse)
+# 🐝꿀단집 (HoneyTouse)
 
-> **"소개글"**
+> **"당신의 감성을 흔드는 인테리어 꿀템이 가득한 꿀단집"**
 
-> "소개글"
+> "특별한 감성을 담은 소품과 가구를 원하는 당신을 위한 꿀템이 가득!<br>
+> 저희 꿀단집에서 만나보세요.” 🍯🏠
 
-> <b>배포 링크</b>
+> <b>http://honeytouseclient.s3-website.ap-northeast-2.amazonaws.com/</b>
+
+<div style="text-align: center;">
+
+![logo_with_animation](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/5f8233de-177e-46a3-8b78-861024c6d34b)
+
+</div>
+
+<div style="text-align: center;">
+
+![메인페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/a36c99f5-ac10-4b4a-b21d-d72f7897cbd7)
+
+</div>
 
 ---
 
@@ -14,6 +27,7 @@
 - [프로젝트 개요](#프로젝트-개요)<br>
 - [스토리보드](#스토리보드)<br>
 - [페이지 구성](#페이지-구성)<br>
+- [주요 구현 내용](#주요-구현-내용)<br>
 - [기능 설명](#기능-설명)<br>
 - [참고 링크](#참고-링크)<br>
 
@@ -21,22 +35,248 @@
 
 ## 🔷 서비스 소개
 
+- <b>요약</b> : 기능성과 스타일을 모두 갖춘 인테리어 소품 및 생활용품을 판매하는 쇼핑몰
+
+- <b>기획 의도</b> :
+
+  - 1인가구의 증가와 워라벨에 대한 높아진 인식으로 집에 있는 시간이 늘어남에 따라 휴식공간인 집의 인테리어에도 많은 관심이 몰리고 있음.
+  - 여성의 인테리어 관심도가 높기에 여성유저를 타겟으로 예쁜색상과 귀여운 디자인을 채택하여 접속하는 유저들의 머릿 속에 '인테리어=꿀단집'이라는 기억이 남을 수 있게 디자인한 쇼핑몰을 런칭함.
+
+- <b>서비스 명칭</b> :
+
+  - **꿀단집(HoneyTouse)**
+    - 꿀단지*(HoneyPot)* + 집*(House)*의 합성어
+    - 꿀과 집을 연상시키면서도 따뜻하고 아늑한 느낌을 줌.
+    - 꿀같은 휴식과 안락함을 즐길 수 있는 다양한 제품들을 제공하는 서비스의 이미지를 연상하도록 함.
+
+- <b>페르소나</b> : - <b>권 나리 / 20대 여성 / 서울 거주 자취생 (1인가구)</b> - 저렴하면서도 세련되게 자취방을 꾸밀 수 있는 아기자기한 감성 가구 및 소품을 원함. - 자취방에서 사용할 수 있는 심플한 생활용품 구매를 희망함. - 실용성이 뛰어나면서도 본인의 감성을 채워줄 물건을 찾고 있음.
+<details>
+<summary><i>페르소나 이미지 파일</i></summary>
+<div markdown="1">
+
+![image](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/732522c3-ea12-4d43-9b32-4dfc4b765ec6)
+
+</div>
+</details>
+
 ---
 
-## 🔷 프로젝트 개요
+## 🔷 프로젝트 개요<br>
+
+- ### 진행 기간 <br>
+
+  - <b>1차</b> : 기획 및 개발 (24.02.19 ~ 24.03.01) [2주]<br>
+  - <b>2차</b> : 리팩토링 (24.03.08 ~ ) [자율] <br> - (주)엘리스가 보유하고 있는 프라이빗 GitLab 저장소에서 1차 개발을 마친 후,<br> 개별적으로 Github Organization 생성하여 2차 리팩토링을 자율적으로 진행함.
+    <br>
+
+- ### 진행 인원 및 역할 <br>
+
+  - 7명 (프론트엔드 4명, 백엔드 3명)<br>
+    | 이름 | FrontEnd | BackEnd | 배포/발표/영상 |
+    |----------------------------|---------------------------|---------------------------|--------------------------|
+    | 김지윤 | • 상품 상세 페이지<br>• 장바구니 페이지 | - | • 시연 영상 제작 |
+    | 문채영 | - | • Admin API(관리자 기능)<br>• Order API (회원/비회원 주문 CRUD) | • PPT 제작 |
+    | 신창건 | • 마이페이지 프로필 관리 부분 | - | • PPT 제작 |
+    | 이가린 | • 마이페이지 유저 정보 연동 부분 | • User API (로그인, 회원가입, 이메일 인증, 개인정보 CRUD) | • 발표<br>• 2차 배포 (AWS) |
+    | 이승철 | • 메인페이지<br>• 로그인 및 회원가입 페이지 | - | • PPT 제작<br>• 2차 배포(Nginx) |
+    | 이보미 | • 주문 및 결제 페이지<br>• 마이페이지 주문내역 부분 | - | • 시연영상 제작 |
+    | 최정민 | • 관리자 페이지 | • Category API (카테고리 CRUD)<br>• Product API (상품 CRUD) | • PPT 제작 |
+    <br>
+
+- ### 관련 링크
+
+  - <b>노션 페이지</b> : https://holy-mailbox-d99.notion.site/HONEY_TOUSE-3-24dfdd1b9bb64d00bac395e1a56c0093?pvs=4<br>
+  - <b>피그마</b> : https://www.figma.com/design/3Knu77CbkAbGge2jrBXQds/honey-touse?node-id=0-1&t=w161YF54HWFuTJ1F-1
+  - <b>포지션별 Github</b> - 프론트엔드 : https://github.com/HoneyTouse/HoneyTouse_FE - 백엔드 : https://github.com/HoneyTouse/HoneyTouse_BE
+    <br>
+    <br>
+
+- ### 기술 스택
+  - <b>프론트엔드</b> : HTML, CSS, JavaScript, Vite
+  - <b>백엔드</b> : Node.js, Express, MongoDB, JavaScript
+  - <b>배포</b> : AWS S3, Route53, Cloudfront, EC2
 
 ---
 
 ## 🔷 스토리보드
 
+![image](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/9d4fee41-ac09-437d-9576-40bd5e581113)
+
 ---
 
 ## 🔷 페이지 구성
+
+|                                                                          메인 페이지                                                                          |                                                                       카테고리별 페이지                                                                       |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    <div style="text-align: center;">![메인페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/ea31d850-53d9-4c8d-a906-119861baeb77)</div>    | <div style="text-align: center;">![카테고리별페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/09e5bb0f-38fa-467c-9b81-0acbb01f55e8)</div> |
+|                                               <b><div style="text-align: center;">상품별 상세 페이지</div></b>                                                |                                                 <b><div style="text-align: center;">장바구니 페이지</div></b>                                                 |
+| <div style="text-align: center;">![상품별상세페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/c680f57c-2ae3-4b04-80c4-f62edcfa9391)</div> |  <div style="text-align: center;">![장바구니페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/095b3366-ac62-42b7-b290-b5ef2d1ff3d9)</div>  |
+|                                                <b><div style="text-align: center;">주문/결제 페이지</div></b>                                                 |                                                 <b><div style="text-align: center;">주문내역 페이지</div></b>                                                 |
+|  <div style="text-align: center;">![주문결제페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/9911657a-4fd4-4696-b1cf-e72aae781b23)</div>  |  <div style="text-align: center;">![주문내역페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/40a07b7b-b38c-4d77-9489-031859f5811f)</div>  |
+|                                                   <b><div style="text-align: center;">마이페이지</div></b>                                                    |                                                     <b><div style="text-align: center;">관리자 페이지</b>                                                     |
+|    <div style="text-align: center;">![마이페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/11d56aac-64f7-4d68-ac6a-4886a88bff26)</div>    |   <div style="text-align: center;">![관리자페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/ce92ae5c-3590-4948-9a1c-9e031ee7c949)</div>   |
+|                                                  <b><div style="text-align: center;">로그인 페이지</div></b>                                                  |                                                    <b><div style="text-align: center;">회원가입 페이지</b>                                                    |
+|   <div style="text-align: center;">![로그인페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/d15483eb-7e3a-4d8a-baa0-48d4117bece2)</div>   |  <div style="text-align: center;">![회원가입페이지](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/5b6f5c5c-e763-4c9b-9122-9a22ab9c97f7)</div>  |
+
+---
+
+## 🔷 주요 구현 내용
+
+| 프론트엔드                                           | 백엔드                                        |
+| ---------------------------------------------------- | --------------------------------------------- |
+| • 깔끔한 UI와 산뜻한 디자인                          | • 유지 보수성을 향상시키는 모듈화 구조 설계   |
+| • 외부 라이브러리를 거의 사용하지 않은 순수 CSS 구현 | • 회원과 비회원의 주문 내역이 구분되어 관리   |
+| • 모든 페이지에 대표 파비콘 연결                     | • 이메일 인증을 통한 보안 강화                |
+| • 장바구니 및 최근 검색어 저장 기능 구현             | • 상품 관련 데이터는 AWS 클라우드 서비스 활용 |
 
 ---
 
 ## 🔷 기능 설명
 
+### ✅ 상품 탐색을 즐겁게 만드는 메인페이지 UI
+
+- 귀여운 분위기의 사용자 친화적인 디자인
+- 화면 상단에서 최신 입고된 상품 확인 가능
+- 화면 하단에서 MD가 추천 상품을 카테고리별로 클릭하여 조회 가능
+- 상품에 마우스를 올리면 상품 이미지가 확대되어 사용자의 시선을 주목시킴
+- 최근 검색 내역을 저장하여 재방문시 검색 내역 확인 가능 **_(Local Storage)_**
+<details>
+<summary><b>메인 페이지 - 접속</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>메인 페이지 - 카테고리 조회</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>메인 페이지 - 최근 검색 내역</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<br>
+
+### ✅ 상품 선택과 구매가 쉬운 상세 페이지 UI
+
+- 상품별 옵션 지정 가능
+- 옵션을 선택 시 장바구니 담기 및 바로구매 가능
+- 상품 개수를 버튼으로 조절할 때마다 자동으로 주문금액이 계산되어 화면에 표시
+- 개별 상품에 대한 상세 정보는 이미지로 확인 가능
+<details>
+<summary><b>상세 페이지 - 접속</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>상세 페이지 - 장바구니 담기</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<br>
+
+### ✅ 마이페이지 서비스
+
+- 회원 정보를 확인하고 프로필 관리 가능
+- 배송 상태별 주문 수량을 확인 가능
+- 최근 주문 정보 확인 가능
+<details>
+<summary><b>마이 페이지 - 회원 정보 수정</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<br>
+
+### ✅ 관리자 권한
+
+- 일반 사용자와 구분되는 관리자 계정을 이용하여 관리자 페이지로 접속 가능
+- 모든 회원 정보와 상품 주문 내역 조회 가능
+- 상품은 배송 상태별로 분류하여 조회 가능
+- 상품 및 카테고리 관리 기능 (추가, 수정, 삭제)
+<details>
+<summary><b>관리자 페이지 - 비회원 또는 일반 회원 접속</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>관리자 페이지 - 회원 정보 조회</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>관리자 페이지 - 상품 배송 상태별 조회</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>관리자 페이지 - 상품 및 카테고리 관리</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<br>
+
+### ✅ 주문/결제
+
+- 장바구니에 상품 담아두기 가능 **_(Local Storage)_**
+- 장바구니 리스트 중 선택적으로 구매 가능
+- 비회원도 장바구니, 쇼핑 및 결제 가능
+- 결제금액 확인, 개인정보 약관 동의해야만 주문 가능
+- 회원은 가입 정보와 연동하여 결제 정보를 저장
+- 비회원은 주문 시 입력한 정보를 기반으로 결제 정보를 저장
+<details>
+<summary><b>주문/결제 - 비회원</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>주문/결제 - 회원</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>주문/결제 - 장바구니 구매</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<br>
+
+### ✅ 회원가입
+
+- 고유한 이메일 주소를 활용한 회원가입
+- 회원정보(이메일, 비밀번호 등)에 대한 유효성 검사 실시
+- 입력한 이메일로 인증번호 발송 및 확인 가능 (구글, 네이버 등) **_(Node mailer)_**
+- 인증번호는 5분 이내에만 유효하도록 하여 보안 강화
+<details>
+<summary><b>회원가입 - 폼 입력부터 메일 인증, 제출까지</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<details>
+<summary><b>회원가입 - 이메일 미인증 5분 경과</b> (시연 GIF)</summary>
+<div markdown="1">
+
+</div>
+</details>
+<br>
+
 ---
 
 ## 🔷 참고 링크
+
+- 사이트 제작에 참고한 레퍼런스 사이트
+  - KREAM 크림 : https://kream.co.kr/
+  - 오늘의집 : https://ohou.se/
