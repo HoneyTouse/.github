@@ -28,13 +28,13 @@
 
 ## 🔷 바로가기
 
-- [서비스 소개](#서비스-소개)<br>
-- [프로젝트 개요](#프로젝트-개요)<br>
-- [스토리보드](#스토리보드)<br>
-- [페이지 구성](#페이지-구성)<br>
-- [주요 구현 내용](#주요-구현-내용)<br>
-- [기능 설명](#기능-설명)<br>
-- [참고 링크](#참고-링크)<br>
+- [서비스 소개](#🔷-서비스-소개)<br>
+- [프로젝트 개요](#🔷-프로젝트-개요)<br>
+- [스토리보드](#🔷-스토리보드)<br>
+- [페이지 구성](#🔷-페이지-구성)<br>
+- [주요 구현 내용](#🔷-주요-구현-내용)<br>
+- [기능 설명](#🔷-기능-설명)<br>
+- [참고 링크](#🔷-참고-링크)<br>
 
 ---
 
@@ -69,13 +69,15 @@
 
 ---
 
-## 🔷 프로젝트 개요<br>
+## 🔷 프로젝트 개요
 
 - ### 진행 기간 <br>
 
   - <b>1차</b> : 기획 및 개발 (24.02.19 ~ 24.03.01) [2주]<br>
-  - <b>2차</b> : 리팩토링 (24.03.08 ~ ) [자율] <br> - (주)엘리스가 보유하고 있는 프라이빗 GitLab 저장소에서 1차 개발을 마친 후,<br> 개별적으로 Github Organization 생성하여 2차 리팩토링을 자율적으로 진행함.
-    <br>
+  - <b>2차</b> : 리팩토링 (24.03.08 ~ ) [자율] <br> 
+    - (주)엘리스가 보유하고 있는 프라이빗 GitLab 저장소에서 1차 개발을 마침.<br> 이후 개별적으로 Github Organization 생성하여 2차 리팩토링을 자율적으로 진행함.
+<br>
+<br>
 
 - ### 진행 인원 및 역할 <br>
 
@@ -206,7 +208,7 @@
 </div>
 </details>
 <details>
-<summary><b>마이 페이지 - 회원 정보 수정</b> (시연 GIF)</summary>
+<summary><b>마이 페이지 - 비밀번호 변경</b> (시연 GIF)</summary>
 <div markdown="1">
 
 ![마이페이지-정보변경](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/b82c7bc7-ad1d-42eb-9daf-67450bd66922)
@@ -275,7 +277,7 @@
 <summary><b>주문/결제 - 비회원</b> (시연 GIF)</summary>
 <div markdown="1">
 
-![주문-비회원](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/cc963efe-b1a9-4a94-908b-7a3cf3d042d0)
+![주문-비회원](https://github.com/TripTeller-repository/.github/assets/127278410/a052027c-6fc5-4350-aebc-e3a6e15fbe78)
 
 </div>
 </details>
@@ -308,8 +310,11 @@
 <div markdown="1">
 
 ![회원가입-5분이상경과1](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/056e6798-619d-4799-bb7f-9d91aa37f835)
+<br>
 
 5분 이상 경과시 인증번호가 무효가 됨.
+<br>
+
 ![회원가입-5분이상경과2](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/ab05af26-8397-4d12-a2a7-a496c217b268)
 
 </div>
