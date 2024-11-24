@@ -67,6 +67,14 @@
 
 </div>
 </details>
+<details>
+<summary><b>엘리스 SW트랙 1차 프로젝트 우수상 수상</b></summary>
+<div markdown="1">
+
+![page1_1](https://github.com/user-attachments/assets/3d4a3b4f-c1be-4a59-9a6e-632da70c41b7)
+
+</div>
+</details>
 
 ---
 
