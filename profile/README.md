@@ -103,6 +103,7 @@
 
   - <b>노션 페이지</b> : https://holy-mailbox-d99.notion.site/HONEY_TOUSE-3-24dfdd1b9bb64d00bac395e1a56c0093?pvs=4<br>
   - <b>피그마</b> : https://www.figma.com/design/3Knu77CbkAbGge2jrBXQds/honey-touse?node-id=0-1&t=w161YF54HWFuTJ1F-1
+  - <b>스웨거 API 명세서</b> : https://api.honeytouse.com/api-docs/
   - <b>포지션별 Github</b>
     - 프론트엔드 : https://github.com/HoneyTouse/HoneyTouse_FE
     - 백엔드 : https://github.com/HoneyTouse/HoneyTouse_BE
