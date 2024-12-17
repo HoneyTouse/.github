@@ -241,7 +241,7 @@
 <summary><b>관리자 페이지 - 비회원 또는 일반 회원 접속</b> (시연 GIF)</summary>
 <div markdown="1">
 
-![관리자페이지-비회원(배)](https://github.com/HoneyTouse/HoneyTouse_BE/assets/127278410/920f276c-a6f4-43eb-9721-974382ba3138)
+![관리자페이지권한없음](https://github.com/user-attachments/assets/156086a7-0ca3-447a-a24a-38ef2a391ffa)
 
 </div>
 </details>
@@ -353,6 +353,22 @@
 <div markdown="1">
 
 ![구글소셜로그인](https://github.com/user-attachments/assets/b6bb8707-4538-4a43-bdd5-d37a5a6c7256)
+
+</div>
+</details>
+<details>
+<summary><b>리프레시토큰으로 액세스토큰을 갱신</b> (시연 GIF)</summary>
+<div markdown="1">
+
+- <b>배포 환경</b> : 리프레시토큰(쿠키) 6시간, 액세스토큰 10분
+- <b>테스트 환경</b> : 리프레시토큰(쿠키) 30초, 액세스토큰 10초
+
+- 서버에서 쿠키의 리프레시토큰을 확인하고, 유효하면 액세스토큰을 갱신함.
+- 이를 프론트엔드에서 받아서 로컬스토리지에 넣음.
+![리프레시토큰1](https://github.com/user-attachments/assets/5cf95abb-3b84-4569-892b-2d0737b57177)
+
+- 쿠키의 리프레시토큰이 만료되면 액세스토큰을 발급하지 않고, 로그아웃시킴.
+![리프레시토큰2](https://github.com/user-attachments/assets/b9e5b4bd-f362-4ad5-816f-5c84df0d1e29)
 
 </div>
 </details>
