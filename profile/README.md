@@ -5,7 +5,7 @@
 > "특별한 감성을 담은 소품과 가구를 원하는 당신을 위한 꿀템이 가득!<br>
 > 저희 꿀단집에서 만나보세요.” 🍯🏠
 
-> <b>https://www.honeytouse.com</b>
+> <b>https://www.honeytouse.com</b> (AWS Free tier 만료 → 25년 3월부터 중단)
 
 <center>
 
